@@ -1,0 +1,26 @@
+@import url("side-panel.css");
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;  
+}
+
+main li {
+    width: 100%;
+    height: 3rem;    
+}
+
+main a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #e6e4e4;    
+}
+
+main a:hover {
+    background: var(--selection);
+}

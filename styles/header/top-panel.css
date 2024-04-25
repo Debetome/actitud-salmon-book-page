@@ -1,0 +1,22 @@
+#top-panel {
+    width: 100%;
+    height: 100%;
+}
+
+#top-panel #top-panel-btn {    
+    width: 3rem;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#top-panel #top-panel-btn a {
+    color: var(--background1);
+}
+
+#top-panel #top-panel-btn:hover a {
+    color: var(--selection);
+}
