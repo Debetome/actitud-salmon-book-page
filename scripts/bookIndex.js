@@ -1,9 +1,12 @@
-const based_dir = "markdowns"
+import introduction from "url:../content/introduction.md"
+import part1 from "url:../content/part1.md"
+import part2 from "url:../content/part2.md"
+import part3 from "url:../content/part3.md"
 
 const bookIndex = [
     {
         "title": "INTRODUCCIÓN",
-        "content": `${based_dir}/introduction.md`,
+        "content": `${introduction}`,
         "sections": [
             {
                 "id": "encontrar",
@@ -13,7 +16,7 @@ const bookIndex = [
     },
     {
         "title": "PARTE 1: Fundamentos de la Actitud Salmón",
-        "content": `${based_dir}/part1.md`,
+        "content": `${part1}`,
         "sections": [
             {
                 "id": "depende",
@@ -31,7 +34,7 @@ const bookIndex = [
     },
     {
         "title": "PARTE 2: Actitud Salmón en tu negocio",
-        "content": `${based_dir}/part2.md`,
+        "content": `${part2}`,
         "sections": [
             {
                 "id": "actitud",
@@ -61,14 +64,14 @@ const bookIndex = [
     },
     {
         "title": "PARTE 3: Poner en marcha tu Actitud Salmón",
-        "content": `${based_dir}/part3.md`,
+        "content": `${part3}`,
         "sections": [
                        
         ]
     },
     {
         "title": "CONCLUSIÓN. Haz tu propia receta",
-        "content": `${based_dir}/part4.md`,
+        "content": ``,
         "sections": [
                        
         ]

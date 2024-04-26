@@ -1,4 +1,5 @@
 import bookIndex from "./bookIndex";
+import { changeBookContent } from "./bookContent";
 
 export function toggleSidePanel() {
     const sidePanel = document.getElementById("side-panel");
@@ -61,6 +62,8 @@ function initPanelListEvents() {
                 if (partSelected === partLink || shownChildList === childLists[index])
                     return;
             }            
+
+            changeBookContent(index)
 
             partLink.classList.add("selected");            
             if (index < childLists.length)
