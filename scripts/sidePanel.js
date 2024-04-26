@@ -12,13 +12,15 @@ export function toggleSidePanel() {
 }
 
 export function changePanelSelection(index) {
+    if (index < 0 || index >= bookIndex.length) return;
+
     const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");    
     const bookPartLinks = [...document.querySelectorAll("#side-panel #side-panel-list li")]
         .filter(li => !li.parentElement.classList.contains("side-panel-childlist"))
         .map(li => li.firstChild);
 
     const shownChildList = document.querySelector("#side-panel #side-panel-list .side-panel-childlist.shown");
-    const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");
+    const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");        
 
     if (partSelected || shownChildList) {
         shownChildList.classList.remove("shown");
@@ -26,7 +28,7 @@ export function changePanelSelection(index) {
 
         if (partSelected === bookPartLinks[index] || shownChildList === childLists[index])
             return;
-    }            
+    }                
 
     changeBookContent(index)
 

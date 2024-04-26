@@ -5,17 +5,6 @@ import AppState from "./state";
 
 const md = new MarkdownIt();
 
-export function initBookContent() {
-    const markdownContainer = document.getElementById("markdown-container");
-    const initContent = bookIndex[0].content
-
-    fetchMarkdownFile(initContent)
-        .then(markdownText => {
-            markdownContainer.innerHTML = md.render(markdownText)
-            AppState.setState("contentIndex", 0);
-        });
-}
-
 export function changeBookContent(index) {
     const markdownContainer = document.getElementById("markdown-container");
     const selectedContent = bookIndex[index].content
@@ -24,6 +13,7 @@ export function changeBookContent(index) {
         .then(markdownText => {
             markdownContainer.innerHTML = md.render(markdownText)            
             AppState.setState("contentIndex", index);
+            scrollTop();
         });  
 }
 
@@ -41,6 +31,15 @@ export function previousBookPart() {
         return;
 
     changeBookContent(index);
+}
+
+export function initBookContent() {
+    changeBookContent(0);
+}
+
+function scrollTop() {
+    const contentContainer = document.getElementById("book-content-container");
+    contentContainer.scrollTop = 0;
 }
 
 function fetchMarkdownFile(filePath) {
