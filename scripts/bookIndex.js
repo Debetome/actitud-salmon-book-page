@@ -1,7 +1,7 @@
-import introduction from "url:../content/introduction.md"
-import part1 from "url:../content/part1.md"
-import part2 from "url:../content/part2.md"
-import part3 from "url:../content/part3.md"
+import introduction from "url:../content/introduction.txt"
+import part1 from "url:../content/part1.txt"
+import part2 from "url:../content/part2.txt"
+import part3 from "url:../content/part3.txt"
 
 const bookIndex = [
     {
