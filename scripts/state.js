@@ -6,12 +6,12 @@ class AppState {
     setState(key, value) {
         this.states[key] = value;
     }
-    
+
     getState(key) {
         return this.states[key];
     }
 }
 
-const appState = new AppState();
+const AppStateInstance = new AppState()
 
-export default appState
+export default AppStateInstance

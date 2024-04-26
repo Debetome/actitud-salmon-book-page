@@ -11,6 +11,30 @@ export function toggleSidePanel() {
     sidePanel.classList.add("hidden");
 }
 
+export function changePanelSelection(index) {
+    const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");    
+    const bookPartLinks = [...document.querySelectorAll("#side-panel #side-panel-list li")]
+        .filter(li => !li.parentElement.classList.contains("side-panel-childlist"))
+        .map(li => li.firstChild);
+
+    const shownChildList = document.querySelector("#side-panel #side-panel-list .side-panel-childlist.shown");
+    const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");
+
+    if (partSelected || shownChildList) {
+        shownChildList.classList.remove("shown");
+        partSelected.classList.remove("selected");
+
+        if (partSelected === bookPartLinks[index] || shownChildList === childLists[index])
+            return;
+    }            
+
+    changeBookContent(index)
+
+    bookPartLinks[index].classList.add("selected");
+    if (index < childLists.length)
+        childLists[index].classList.add("shown");
+}
+
 export function initSidePanel() {
     initPanelList();
     initPanelListEvents();

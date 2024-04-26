@@ -1,6 +1,6 @@
-# PARTE 1: Fundamentos de la Actitud Salmón
+## PARTE 1: Fundamentos de la Actitud Salmón
 
-## En los años 60, un grupo de investigadores realizó un experimento con un grupo de monos.
+### En los años 60, un grupo de investigadores realizó un experimento con un grupo de monos.
 
 Encerraron 5 monos en una jaula. Colocaron una escalera. En la parte superior de la escalera pusieron un montón de plátanos. Sencillo. Subían por la escalera y accedían a los plátanos.
 
@@ -16,7 +16,7 @@ Por último, cambiaron los dos monos que quedaban desde el principio por dos mon
 
 Las reglas de ese lugar estaban establecidas. No se podía subir por la escalera. Aunque nadie supiera por qué.
 
-## Abre la puerta y escapa
+### Abre la puerta y escapa
 
 Este experimento con los monos es revelador. Hay innumerables acciones que realizamos por inercia. Siguiendo al rebaño. A los demás. Y lo más chocante de todo es que no somos conscientes de que están sucediendo. Nuestro cerebro ni se lo plantea.
 
@@ -30,7 +30,7 @@ Cambiar el tono de tu comunicación, el formato de tu oferta, el acceso al produ
 
 A los monos no les permitían salir sin permiso previo. Pero tú puedes abrir la puerta e irte. ¿Por qué no lo haces? Seguir a los demás es más sencillo. Mi mente me dice que debe ser así. Tras esa puerta no sé bien lo que hay. ¿Quizás algo peor?
 
-## ¿De quién depende el futuro de tu negocio?
+### ¿De quién depende el futuro de tu negocio?
 
 En el año 2013, el Eurostat hizo un estudio en Europa pidiendo a los ciudadanos que indicasen si estaban de acuerdo o no con la siguiente afirmación: «Mi futuro depende de mis decisiones, no de las de los demás ni de la suerte». El resultado, como no podía ser de otra manera, evidencia una forma muy diferente de percibir la realidad entre las diferentes culturas.
 
@@ -52,7 +52,7 @@ AM Libros te selecciona 4 o 5 publicaciones que cree que te pueden interesar. La
 
 Podemos decir que Andoni es nuestro primer salmón. Ha sido capaz de encontrar un valor añadido en su actividad que nadie ofrece y que le permite competir más allá de bajar el precio. Me quito el sombrero.
 
-## La proactividad más allá de tomar la iniciativa
+### La proactividad más allá de tomar la iniciativa
 
 Hay un libro fundamental, visionario, que a mí me ha ayudado a entender nuestras capacidades y nuestras posibilidades de cambiar las cosas. Hablo de Los siete hábitos de la gente altamente efectiva de Stephen R. Covey. Si no lo has leído, esta es mi primera recomendación.
 
@@ -74,7 +74,7 @@ La proactividad resume la esencia de la Actitud Salmón. Todo está aquí. Si so
 
 Nuestras empresas son fruto de nuestra visión y de nuestras decisiones.
 
-## Proactividad en tu negocio
+### Proactividad en tu negocio
 
 Imagina. Yo discutiendo sobre proactividad ante 35 comerciantes de un pequeño pueblo de la provincia de Salamanca en España. Todos sus problemas venían del exterior. De Amazon. De las grandes superficies. De los clientes que se probaban sus productos en la tienda para comprarlos por internet... Un carnicero llegó a decir que su negocio iba mal por culpa de los profesores del único colegio existente en el pueblo. Eso no se te olvida. Te deja huella.
 
@@ -88,7 +88,7 @@ Ser proactivo es tener espíritu crítico. Cuestionarse lo establecido. Saber qu
 
 Identifícalas y transforma tu realidad.
 
-## Lucha contra los supervillanos
+### Lucha contra los supervillanos
 
 En este camino no estás solo. Aunque no lo sepas... tu entorno está repleto de supervillanos. No llevan la cara pintada como Joker ni antifaz como Batman, pero te quieren joder la vida. Intentarán influir en la forma en la que ves las cosas, frenar tus ganas de avanzar e intentarán que no pienses diferente. Son el prototipo de reactividad.
 
@@ -110,7 +110,7 @@ Este sí que es peligroso. A priori no es muy visible. No es tan evidente como P
 
 O peor aún... igual tú eres uno de ellos y todavía no te habías dado cuenta.
 
-## Tu arma secreta: la Actitud Salmón
+### Tu arma secreta: la Actitud Salmón
 
 Ya ves. Esto es lo que hay. Grandes cambios en todo tipo de negocios. Inercias paralizantes en los mercados. Supervillanos al acecho... y tú con tus circunstancias, sin saber bien qué hacer.
 
