@@ -1,6 +1,21 @@
 import bookIndex from "./bookIndex";
 
+export function toggleSidePanel() {
+    const sidePanel = document.getElementById("side-panel");
+    if (sidePanel.classList.contains("hidden")) {
+        sidePanel.classList.remove("hidden");
+        return;
+    }
+
+    sidePanel.classList.add("hidden");
+}
+
 export function initSidePanel() {
+    initSidePanelList();
+    initSidePanelListElements();
+}
+
+function initSidePanelList() {
     const sidePanelList = document.getElementById("side-panel-list");
 
     for (let i = 0; i < bookIndex.length; i++) {        
@@ -25,4 +40,30 @@ export function initSidePanel() {
             sidePanelList.appendChild(childList);
         }
     }
+}
+
+function initSidePanelListElements() {
+    const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");
+    const bookPartLinks = [...document.querySelectorAll("#side-panel #side-panel-list li")]
+        .filter(li => !li.parentElement.classList.contains("side-panel-childlist"))
+        .map(li => li.firstChild);
+
+    bookPartLinks.forEach((partLink, index) => {
+        partLink.addEventListener("click", (event) => {            
+            const shownChildList = document.querySelector("#side-panel #side-panel-list .side-panel-childlist.shown");
+            const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");
+
+            if (partSelected || shownChildList) {
+                shownChildList.classList.remove("shown");
+                partSelected.classList.remove("selected");
+
+                if (partSelected === partLink || shownChildList === childLists[index])
+                    return;
+            }            
+
+            partLink.classList.add("selected");            
+            if (index < childLists.length)
+                childLists[index].classList.add("shown");
+        })
+    });
 }

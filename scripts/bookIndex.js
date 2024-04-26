@@ -58,7 +58,21 @@ const bookIndex = [
                 "title": "COMUNICACIÓN: El vehículo hacia el cliente"
             }            
         ]
-    }    
+    },
+    {
+        "title": "PARTE 3: Poner en marcha tu Actitud Salmón",
+        "content": `${based_dir}/part3.md`,
+        "sections": [
+                       
+        ]
+    },
+    {
+        "title": "CONCLUSIÓN. Haz tu propia receta",
+        "content": `${based_dir}/part4.md`,
+        "sections": [
+                       
+        ]
+    },
 ]
 
 export default bookIndex
