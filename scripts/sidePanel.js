@@ -11,11 +11,12 @@ export function toggleSidePanel() {
 }
 
 export function initSidePanel() {
-    initSidePanelList();
-    initSidePanelListElements();
+    initPanelList();
+    initPanelListEvents();
+    initChildListEvents();
 }
 
-function initSidePanelList() {
+function initPanelList() {
     const sidePanelList = document.getElementById("side-panel-list");
 
     for (let i = 0; i < bookIndex.length; i++) {        
@@ -42,11 +43,11 @@ function initSidePanelList() {
     }
 }
 
-function initSidePanelListElements() {
-    const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");
+function initPanelListEvents() {
+    const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");    
     const bookPartLinks = [...document.querySelectorAll("#side-panel #side-panel-list li")]
         .filter(li => !li.parentElement.classList.contains("side-panel-childlist"))
-        .map(li => li.firstChild);
+        .map(li => li.firstChild);    
 
     bookPartLinks.forEach((partLink, index) => {
         partLink.addEventListener("click", (event) => {            
@@ -66,4 +67,14 @@ function initSidePanelListElements() {
                 childLists[index].classList.add("shown");
         })
     });
+}
+
+function initChildListEvents() {
+    const childListsLinks = [...document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist li a")];
+
+    childListsLinks.forEach(childLink => {
+        childLink.addEventListener("click", (event) => {
+            event.preventDefault();
+        });
+    })
 }
