@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">    
     <link rel="stylesheet" href="styles/styles.css"/>    
     <script src="scripts/main.js" type="module" defer></script>
@@ -11,22 +11,27 @@
 <body>
     <header>
         <nav id="top-panel">
-            <section id="top-panel-btn">
-                <a onclick=""><i class="fa fa-bars"></i></a>
+            <section id="sidepanel-btn">
+                <a><i class="fa fa-bars"></i></a>
             </section>
-            <section id="top-panel-logo">
-
-            </section>            
+            <section id="book-logo">
+            </section>
+            <section id="zooming-inputs">
+                <a><i class="fa fa-magnifying-glass-plus"></i></a>                
+            </section> 
+            <section id="fullscreen-btn">
+                <a><i class="fa fa-expand"></i></a>
+            </section>  
         </nav>
     </header>
     <main>
-        <section id="side-panel">
+        <nav id="side-panel">
             <ul id="side-panel-list">             
             </ul>
-        </section>
+        </nav>
         <section id="book-content-container">
-            <div id="markdown-container">
-            </div>          
+            <article id="markdown-container">
+            </article>          
         </section>      
     </main>
 </body>

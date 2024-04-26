@@ -3,5 +3,5 @@
 header {
     background: var(--background2);
     width: 100%;
-    min-height: 50px;
+    min-height: 3rem;
 }

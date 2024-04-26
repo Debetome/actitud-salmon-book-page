@@ -1,7 +1,7 @@
 import { toggleSidePanel } from "./sidePanel";
 
 export function initTopPanel() {
-    const topPanelBtn = document.querySelector("#top-panel-btn a");
+    const topPanelBtn = document.querySelector("#sidepanel-btn a");
     topPanelBtn.addEventListener("click", () => {
         toggleSidePanel();        
     })

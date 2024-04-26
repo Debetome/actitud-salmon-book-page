@@ -1,9 +1,11 @@
 #top-panel {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;    
 }
 
-#top-panel #top-panel-btn {    
+#sidepanel-btn {    
     width: 3rem;
     height: 100%;    
     display: flex;
@@ -13,7 +15,7 @@
     font-size: 30px;
 }
 
-#top-panel #top-panel-btn a {
+#sidepanel-btn a {
     display: flex;
     width: 100%;
     height: 100%;
@@ -24,6 +26,65 @@
     color: var(--background1);
 }
 
-#top-panel #top-panel-btn:hover a {
+#sidepanel-btn:hover a {
+    color: var(--selection);
+}
+
+
+#zooming-inputs {        
+    height: 100%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 0.2rem;
+}
+
+#zooming-inputs a {    
+    width: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#zooming-inputs input {
+    width: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+#zooming-inputs:hover a {
+    color: var(--selection);
+}
+
+
+#fullscreen-btn {
+    width: 3rem;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 0.2rem;
+}
+
+#fullscreen-btn a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--background1);
+}
+
+#fullscreen-btn:hover a {
     color: var(--selection);
 }
