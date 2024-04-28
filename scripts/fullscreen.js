@@ -7,8 +7,11 @@ export function initFullscreenEvent() {
 
     document.addEventListener('fullscreenchange', (event) => {
         if (!document.fullscreenElement) {
+            const container = document.getElementById("book-content-container");
             const minimizeBtn = document.getElementById("minimize-btn");
+            
             minimizeBtn.classList.remove("fullscreen");
+            container.classList.remove("fullscreen"); 
         }
     });
 }
@@ -18,13 +21,15 @@ function toggleFullscreen() {
     const minimizeBtn = document.getElementById("minimize-btn");
 
     if (!document.fullscreenElement) {
-        container.requestFullscreen().then(_ => {
+        container.requestFullscreen().then(_ => {            
             minimizeBtn.classList.add("fullscreen");
+            container.classList.add("fullscreen");           
         }).catch(err => {
             alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
         });
     } else {
         minimizeBtn.classList.remove("fullscreen");
+        container.classList.add("fullscreen");
         document.exitFullscreen();
     }
 }

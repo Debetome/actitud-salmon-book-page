@@ -1,5 +1,5 @@
+import { changeBookContent, scrollToSection } from "./bookContent";
 import bookIndex from "./bookIndex";
-import { changeBookContent } from "./bookContent";
 
 export function toggleSidePanel() {
     const sidePanel = document.getElementById("side-panel");
@@ -49,7 +49,7 @@ function initPanelList() {
     for (let i = 0; i < bookIndex.length; i++) {        
         const tempContainer = document.createElement("div");
 
-        tempContainer.innerHTML = `<li><a href="#">${bookIndex[i].title}</a></li>`;
+        tempContainer.innerHTML = `<li><a>${bookIndex[i].title}</a></li>`;
         sidePanelList.appendChild(tempContainer.firstChild);
 
         if ("sections" in bookIndex[i]) {
@@ -57,10 +57,14 @@ function initPanelList() {
             childList.className = "side-panel-childlist";
 
             bookIndex[i].sections.forEach((section, index) => {
-                const tempSection = document.createElement("div");                
+                const childListElement = document.createElement("li");
+                const childListLink = document.createElement("a");
+                
+                childListLink.addEventListener("click", () => scrollToSection(section));
+                childListLink.innerText = `${section}`;
 
-                tempSection.innerHTML = `<li><a href="${section}">${section}</a></li>`;
-                childList.appendChild(tempSection.firstChild);
+                childListElement.appendChild(childListLink);
+                childList.appendChild(childListElement);
             })
 
             sidePanelList.appendChild(childList);
@@ -69,6 +73,7 @@ function initPanelList() {
 }
 
 function initPanelListEvents() {
+    const sidePanelList = document.querySelector("#side-panel #side-panel-list");
     const childLists = document.querySelectorAll("#side-panel #side-panel-list .side-panel-childlist");    
     const bookPartLinks = [...document.querySelectorAll("#side-panel #side-panel-list li")]
         .filter(li => !li.parentElement.classList.contains("side-panel-childlist"))
@@ -77,21 +82,28 @@ function initPanelListEvents() {
     bookPartLinks.forEach((partLink, index) => {
         partLink.addEventListener("click", (event) => {            
             const shownChildList = document.querySelector("#side-panel #side-panel-list .side-panel-childlist.shown");
-            const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");
+            const partSelected = document.querySelector("#side-panel #side-panel-list li a.selected");            
 
             if (partSelected || shownChildList) {
+                sidePanelList.style.height = `100%`;
                 shownChildList.classList.remove("shown");
                 partSelected.classList.remove("selected");
 
                 if (partSelected === partLink || shownChildList === childLists[index])
                     return;
             }            
-
+                                    
             changeBookContent(index)
 
             partLink.classList.add("selected");            
             if (index < childLists.length)
-                childLists[index].classList.add("shown");
+                childLists[index].classList.add("shown");            
+
+            const sidePanelHeight = parseInt(window.getComputedStyle(sidePanelList).height.replace("px", ""));
+            const childListHeight = parseInt(window.getComputedStyle(childLists[index]).height.replace("px", "")) * 0.8;
+
+            if (childLists[index].children.length >= 2)
+                sidePanelList.style.height = `${sidePanelHeight + childListHeight}px`;
         })
     });
 }
