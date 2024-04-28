@@ -57,11 +57,9 @@ function initPanelList() {
             childList.className = "side-panel-childlist";
 
             bookIndex[i].sections.forEach((section, index) => {
-                const tempSection = document.createElement("div");
-                const id = section.id;
-                const title = section.title;
+                const tempSection = document.createElement("div");                
 
-                tempSection.innerHTML = `<li><a href="${id}">${title}</a></li>`;
+                tempSection.innerHTML = `<li><a href="${section}">${section}</a></li>`;
                 childList.appendChild(tempSection.firstChild);
             })
 

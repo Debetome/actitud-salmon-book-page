@@ -6,7 +6,7 @@
     overflow-y: auto;
 }
 
-#book-content-container #markdown-container {
+#markdown-container {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -15,8 +15,44 @@
     padding-bottom: 2rem;
 }
 
-#book-content-container #markdown-container h1,h2,h3,h4,h5,h6,p {
+#markdown-container h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 2rem;
+}
+
+#minimize-btn {
+    position: fixed;  
+    top: 3%;
+    left: 90%;
+    width: 3rem;
+    height: 3rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 0.2rem;
+    margin-left: auto;
+    opacity: 0.3;
+    visibility: hidden;  
+}
+
+#minimize-btn.fullscreen {
+    visibility: visible;
+}
+
+#minimize-btn a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+#minimize-btn:hover a {
+    background: none;    
 }
 
 .nav-arrows {
