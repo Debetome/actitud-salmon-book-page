@@ -34,7 +34,8 @@ Cuidado. Puedes caer en la trampa del «objeto reluciente», una trampa en la qu
 Trabajar con metas difusas
 Estamos muy poco acostumbrados a trabajar con falta de seguridad, de confianza o certeza sobre lo que estamos haciendo. La incertidumbre nos genera intranquilidad y somos más sensibles a las voces discordantes. Los supervillanos nos hacen dudar. No te lo voy a negar, es así. Nuestra mente está acostumbrada a trabajar en entornos controlados donde conocemos el punto final al que queremos llegar y los puntos intermedios a los que nos enfrentamos. Imagina que tienes que hacer una casa unifamiliar. La meta final a conseguir está clara. Antes de comenzar ya estamos visualizando la casa finalizada. El número de plantas, la situación, los acabados... Para conseguir realizarlo solamente tenemos que marcar los hitos necesarios y ponernos en marcha: realizar el proyecto de construcción, solicitar los permisos, adaptar el terreno, construir la estructura. Un proceso lineal muy fácil de entender y ejecutar para los profesionales de ese sector. Esto se denomina cadena de causa y efecto. Sólida. Segura. Los salmones no trabajamos con metas concretas. Lamentablemente. Para encontrar nuevas oportunidades que mejoren tu negocio tendrás que acostumbrarte a trabajar con metas difusas. De una forma no lineal. Con diferentes caminos y recorridos posibles. Trabajar con metas difusas, en entornos de incertidumbre, requiere sus propios métodos y herramientas. Vamos a ver cuáles son.
 
-Escapa de la forma de hacer tradicional
+## Escapa de la forma de hacer tradicional
+
 La actitud está bien. Pero no es suficiente. Necesitamos otros elementos de apoyo. Procesos de trabajo adaptados a nuestra medida para evitar frustraciones. Para saber cómo poner las ideas en marcha. Para saber si vamos por el buen camino.
 
 Las nuevas formas de hacer las cosas
@@ -56,7 +57,7 @@ Sin embargo, Nick tenía una mentalidad Lean. Sabía que lo primero que tenía q
 
 Pero Nick era un salmón, por lo que puso un plan alternativo en marcha. Se propuso comprobar si los clientes estaban dispuestos a comprar zapatos por internet de la forma más rápida y barata posible. Salió de casa y recorrió todas las zapaterías de su barrio. Sacó fotografías a los zapatos de los escaparates y volvió a su domicilio. Montó una web básica en la que podías ver los modelos y los podías solicitar. Un sistema muy rápido, manual y barato. Si alguien compraba un par de zapatos, Nick bajaba a la tienda, lo compraba, lo envolvía y lo enviaba. Perdía dinero por cada par que vendía, pero mucho menos que el que perdería si hubiese apostado por la otra opción. Nick validó su hipótesis. Demostró que había clientes interesados en comprar zapatos por internet y fundó Zappos, la mayor tienda de calzado en la red. Validar ideas sin construir la solución de forma integral es el camino para que las cosas sucedan, para poder modificar ideas sobre la marcha. Para poder validarlas. Existen multitud de herramientas que te pueden ayudar a este objetivo.
 
-# Procesos y herramientas
+## Procesos y herramientas
 
 En esta sección te propongo algunos procesos y herramientas que yo utilizo. Todo lo que necesitas para continuar por este camino. Dependiendo de cuál sea la necesidad de partida, los procesos y herramientas serán diferentes. A continuación, presentamos 3 caminos posibles.
 
@@ -105,7 +106,7 @@ Simplemente, antes de empezar, vamos a repasar lo que no puedes olvidar.
 7. Utiliza tu intuición y busca datos que te den la razón o te la quiten.
 8. Estate dispuesto a reconocer que no tenías razón.
 
-### Mejor hoy que mañana
+## Mejor hoy que mañana
 
 Para mí, una idea es buena si se puede probar mañana mismo, si necesita pocos recursos y me aporta conclusiones muy rápido. Por ello, tómate este punto muy en serio. Las grandes ideas con grandes desarrollos acaban casi siempre en el cajón.
 Piensa en pequeños pasos que te puedan hacer avanzar.

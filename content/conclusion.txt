@@ -127,7 +127,7 @@ Gracias a todas las empresas y emprendedores que formáis parte de este libro. H
 
 Por último, gracias a todos los participantes de mis talleres. Gran parte de lo que he aprendido con vosotros está aquí.
 
-# Bibliografía
+## Bibliografía
 
 Este libro está inspirado por innumerables escritores y publicaciones. Soy incapaz de recordarlos. Por ello, he decidido seleccionar de mi biblioteca los 10 más interesantes. Que más te pueden ayudar. Ahí van.
 
@@ -142,7 +142,7 @@ Este libro está inspirado por innumerables escritores y publicaciones. Soy inca
 - **Annoyomics**, de Risto Mejide. El arte de molestar para ganar dinero. No te digo más.
 - **El efecto compuesto**, de Darren Hardy. Un libro sobre hábitos y el poder de las pequeñas acciones.
 
-# Sobre mí. Por si quieres conocerme algo más
+## Sobre mí. Por si quieres conocerme algo más
 
 Me he preguntado en muchas ocasiones porqué estudié Bellas Artes. Nunca he dibujado, ni se me ha dado especialmente bien pintar. El arte, por sí mismo, no había despertado mi interés. No sé. Incluso se me daban bien las matemáticas, la física y la química. Creo que a los 18 años me aterrorizaba pensar en tener un trabajo monótono. Ese tipo de trabajos en los que no te mueves de una máquina durante las 8 horas del día. Me aterrorizaba pensar en pasar así 40 años.
 
