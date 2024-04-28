@@ -6,6 +6,10 @@
     overflow-y: auto;
 }
 
+#book-content-container.fullscreen {
+    padding-top: 5rem;
+}
+
 #markdown-container {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
@@ -15,21 +19,26 @@
     padding-bottom: 2rem;
 }
 
-#markdown-container h1,h2,h3,h4,h5,h6,p {
+#markdown-container h1,h2,h3,h4,h5,h6,p {    
     margin-bottom: 2rem;
+}
+
+#markdown-container li {
+    margin-bottom: 2rem;
+    height: auto;
 }
 
 #minimize-btn {
     position: fixed;  
-    top: 3%;
-    left: 90%;
+    top: 2%;
+    left: 95%;
     width: 3rem;
     height: 3rem;    
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 45px;
     margin-right: 0.2rem;
     margin-left: auto;
     opacity: 0.3;

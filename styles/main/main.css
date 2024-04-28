@@ -9,8 +9,10 @@ main {
 }
 
 main li {
+    min-width: 280px;
+    max-width: 400px;
     width: 100%;
-    height: 4.5rem;   
+    height: 4.5rem;  
 }
 
 main a {
@@ -24,6 +26,10 @@ main a {
 
 main a:hover {
     background: var(--selection);
+}
+
+main a::selection {
+    color: none;
 }
 
 main a.selected {

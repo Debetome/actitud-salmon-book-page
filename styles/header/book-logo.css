@@ -1,0 +1,42 @@
+#book-logo {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    color: #fff;
+    margin-left: 2rem;
+    height: 100%;
+}
+
+#book-logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;  
+}
+
+#book-logo .logo-letters {
+    display: flex;
+    flex-direction: column;          
+    align-items: center;
+    height: 100%;
+}
+
+#book-logo .logo-letters h4,h6 {
+    font-size: 22px;    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5px;
+    margin-top: -3px;
+    cursor: default;
+}
+
+#book-logo .logo-letters h4::selection,h6::selection {
+    color: none;    
+}
+
+#book-logo .logo-letters h6 {
+    font-size: 20px;
+}
+

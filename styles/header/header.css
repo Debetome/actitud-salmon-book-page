@@ -1,7 +1,8 @@
 @import url("top-panel.css");
+@import url("book-logo.css");
 
 header {
     background: var(--background2);
     width: 100%;
-    min-height: 3rem;
+    min-height: 3.2rem;
 }
