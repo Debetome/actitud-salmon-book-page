@@ -4,7 +4,7 @@
   "license": "MIT",
   "source": "index.html",  
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "https://debetome.github.io/actitud-salmon-book-webpage/",
+  "homepage": "https://debetome.github.io/actitud-salmon-book-webpage",
   "scripts": {
     "dev": "parcel --open",
     "start": "parcel",
