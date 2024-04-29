@@ -3,7 +3,7 @@
   "version": "1.0.0",  
   "license": "MIT",
   "source": "index.html",
-  "homepage": "https://debetome.github.io/actitud-salmon-book-webpage",
+  "homepage": "https://debetome.github.io/actitud-salmon-book-webpage/",
   "scripts": {    
     "dev": "parcel index.html --open",
     "start": "parcel index.html --open",
