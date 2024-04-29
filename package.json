@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "parcel --open",
     "start": "parcel",
-    "build": "parcel build --dist-dir build --public-url ./",
+    "build": "parcel build --dist-dir build --no-source-maps --public-url ./",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
