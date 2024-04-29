@@ -1,14 +1,17 @@
 {
   "name": "actitud_salmon",
-  "version": "1.0.0",
-  "source": "index.html",
+  "version": "1.0.0",  
   "license": "MIT",
-  "scripts": {
+  "source": "index.html",
+  "homepage": "https://debetome.github.io/actitud-salmon-book-webpage/",
+  "scripts": {    
     "dev": "parcel index.html --open",
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0"
   },
   "dependencies": {
