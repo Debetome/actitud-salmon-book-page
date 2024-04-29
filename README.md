@@ -51,11 +51,11 @@ yarn run build
 
 ### Mobile browsers
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile1.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile1.jpeg)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile2.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile2.jpeg)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile3.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile3.jpeg)
 
 ## Contributing
 
