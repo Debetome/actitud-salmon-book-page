@@ -1,5 +1,5 @@
-import { nextBookPart, previousBookPart } from "./bookContent";
-import { changePanelSelection } from "./sidePanel";
+import { nextBookPart, previousBookPart } from "./bookContent.js";
+import { changePanelSelection } from "./sidePanel.js";
 
 import AppState from "./state";
 

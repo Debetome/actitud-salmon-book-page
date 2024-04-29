@@ -1,5 +1,5 @@
-import { changeBookContent, scrollToSection } from "./bookContent";
-import { adjustSidepanelHeight } from "./responsiveness";
+import { changeBookContent, scrollToSection } from "./bookContent.js";
+import { adjustSidepanelHeight } from "./responsiveness.js";
 
 import bookIndex from "./bookIndex";
 import AppState from "./state";

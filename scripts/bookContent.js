@@ -1,7 +1,7 @@
 import MarkdownIt from "markdown-it";
-import bookIndex from "./bookIndex";
+import bookIndex from "./bookIndex.js";
 
-import AppState from "./state";
+import AppState from "./state.js";
 
 const md = new MarkdownIt();
 

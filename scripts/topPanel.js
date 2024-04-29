@@ -1,4 +1,4 @@
-import { toggleSidePanel } from "./sidePanel";
+import { toggleSidePanel } from "./sidePanel.js";
 
 export function initTopPanel() {
     const topPanelBtn = document.querySelector("#sidepanel-btn a");

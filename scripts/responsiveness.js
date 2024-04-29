@@ -1,4 +1,4 @@
-import AppState from "./state";
+import AppState from "./state.js";
 
 export function initResponsiveness() {
     window.addEventListener("resize", () => {
