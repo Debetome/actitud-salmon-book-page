@@ -43,19 +43,19 @@ yarn run build
 
 ### Desktop browsers
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/desktop/desktop1.png)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/desktop/desktop1.png)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/desktop/desktop2.png)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/desktop/desktop2.png)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/desktop/desktop3.png)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/desktop/desktop3.png)
 
 ### Mobile browsers
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/mobile/mobile1.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile1.jpg)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/mobile/mobile2.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile2.jpg)
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/mobile/mobile3.jpg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile3.jpg)
 
 ## Contributing
 
