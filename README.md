@@ -2,7 +2,7 @@
 
 This is a web application for reading a book called "Actitud del Salmón". The application is built using vanilla JavaScript and utilizes various features to provide a rich reading experience.
 
-Homepage url: [Link Text](https://debetome.github.io/actitud-salmon-book-webpage/)
+Homepage url: [https://debetome.github.io/actitud-salmon-book-webpage](https://debetome.github.io/actitud-salmon-book-webpage/)
 
 ## Features
 
