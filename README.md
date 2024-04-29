@@ -51,7 +51,7 @@ yarn run build
 
 ### Mobile browsers
 
-![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile1.jpeg)
+![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile1.jpeg){:width="100px" height="200px"}
 
 ![Real File](https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/assets/screenshots/mobile/mobile2.jpeg)
 
