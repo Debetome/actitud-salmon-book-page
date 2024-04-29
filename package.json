@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "parcel --open",
     "start": "parcel",
-    "build": "parcel build --no-cache --no-content-hash --no-optimize --no-source-maps",
+    "build": "parcel build --dist-dir build --no-cache --no-content-hash --no-optimize --no-source-maps",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
