@@ -1,5 +1,5 @@
-@import url("top-panel.css");
-@import url("book-logo.css");
+@import url("https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/styles/header/top-panel.css");
+@import url("https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/styles/header/book-logo.css");
 
 header {
     background: var(--background2);
