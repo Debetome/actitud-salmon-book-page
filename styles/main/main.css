@@ -1,5 +1,5 @@
-@import url("https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/styles/main/side-panel.css");
-@import url("https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/styles/main/book-content.css");
+@import url("side-panel.css");
+@import url("book-content.css");
 
 main {
     width: 100%;
