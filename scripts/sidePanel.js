@@ -1,8 +1,8 @@
 import { changeBookContent, scrollToSection } from "./bookContent.js";
 import { adjustSidepanelHeight } from "./responsiveness.js";
 
-import bookIndex from "./bookIndex";
-import AppState from "./state";
+import bookIndex from "./bookIndex.js";
+import AppState from "./state.js";
 
 export function toggleSidePanel() {
     const sidePanel = document.getElementById("side-panel");

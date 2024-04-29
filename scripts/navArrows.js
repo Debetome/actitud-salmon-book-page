@@ -1,7 +1,7 @@
 import { nextBookPart, previousBookPart } from "./bookContent.js";
 import { changePanelSelection } from "./sidePanel.js";
 
-import AppState from "./state";
+import AppState from "./state.js";
 
 export function initNavArrows() {
     const navArrowsNavs = [...document.querySelectorAll(".nav-arrows")]    
