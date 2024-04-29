@@ -4,17 +4,19 @@ import part2 from "url:../content/part2.txt"
 import part3 from "url:../content/part3.txt"
 import conclusion from "url:../content/conclusion.txt"
 
+const BASE_DIR = "https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/content";
+
 const bookIndex = [
     {
         "title": "INTRODUCCIÓN",
-        "content": `${introduction}`,
+        "content": `${BASE_DIR}/introduction.txt`,
         "sections": [
             "¿Qué vas a encontrar en este libro?"            
         ]
     },
     {
         "title": "PARTE 1: Fundamentos de la Actitud Salmón",
-        "content": `${part1}`,
+        "content": `${BASE_DIR}/part1.txt`,
         "sections": [
             "¿De quién depende el futuro de tu negocio?",
             "Lucha contra los supervillanos",
@@ -23,7 +25,7 @@ const bookIndex = [
     },
     {
         "title": "PARTE 2: Actitud Salmón en tu negocio",
-        "content": `${part2}`,
+        "content": `${BASE_DIR}/part2.txt`,
         "sections": [
             "La Actitud Salmón genera negocio",
             "Cuatro caminos para hacer negocio a contracorriente",
@@ -35,7 +37,7 @@ const bookIndex = [
     },
     {
         "title": "PARTE 3: Poner en marcha tu Actitud Salmón",
-        "content": `${part3}`,
+        "content": `${BASE_DIR}/part3.txt`,
         "sections": [
             "7 ingredientes para ponerse en acción",
             "Escapa de la forma de hacer tradicional",
@@ -45,7 +47,7 @@ const bookIndex = [
     },
     {
         "title": "CONCLUSIÓN. Haz tu propia receta",
-        "content": `${conclusion}`,
+        "content": `${BASE_DIR}/conclusion.txt`,
         "sections": [
             "Agradecimientos",
             "Bibliografía",
