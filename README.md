@@ -31,7 +31,9 @@ yarn install
 yarn run dev
 ```
 
-4. Build for deployment:
+## Deployment
+
+Build all dist files by the following command:
 
 ```bash
 yarn run build
