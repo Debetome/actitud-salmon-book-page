@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html --open",
-    "start": "parcel dist/index.html --open --hmr-host localhost",
+    "start": "parcel dist/index.html --open",
     "build": "parcel build index.html"
   },
   "devDependencies": {

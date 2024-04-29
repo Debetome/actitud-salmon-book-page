@@ -10,13 +10,17 @@
     padding-top: 5rem;
 }
 
+#book-content-container:last-child {
+    padding-bottom: 7rem;
+}
+
 #markdown-container {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     width: 95%;
     min-height: 300px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 #markdown-container h1,h2,h3,h4,h5,h6,p {    
@@ -31,7 +35,7 @@
 #minimize-btn {
     position: fixed;  
     top: 2%;
-    left: 95%;
+    left: calc(100% - 5rem);
     width: 3rem;
     height: 3rem;    
     display: flex;

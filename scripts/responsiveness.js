@@ -1,6 +1,21 @@
+import AppState from "./state";
+
 export function initResponsiveness() {
-    window.addEventListener("resize", () => toggleSidePanelState());
+    window.addEventListener("resize", () => {
+        toggleSidePanelState();
+        adjustSidepanelHeight();
+    });
+
     toggleSidePanelState();
+    adjustSidepanelHeight();
+}
+
+export function adjustSidepanelHeight() {
+    const sidePanelList = document.querySelector("#side-panel #side-panel-list");    
+    const height = parseInt(window.getComputedStyle(sidePanelList).height.replace("px", ""));    
+        
+    AppState.setState("smallSidePanel", height < 590);
+    sidePanelList.style.paddingBottom = "5rem" ? height < 590 : "2rem";       
 }
 
 function toggleSidePanelState() {

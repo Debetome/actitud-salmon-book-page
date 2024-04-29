@@ -1,7 +1,7 @@
 #side-panel {    
     background: var(--background3);
     width: 25%;
-    height: 100%;    
+    height: calc(100% - 3rem);   
     min-width: 280px;
     max-width: 400px;
     font-weight: 400;
@@ -17,17 +17,20 @@
 
 #side-panel #side-panel-list {    
     width: 100%;
-    height: 100%;
+    height: calc(100% + 5rem);
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: start;
     overflow-y: auto;
+    padding-bottom: 2rem;   
 }
 
 #side-panel #side-panel-list li a {
     padding-left: 1.5rem;
     padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 600;
     cursor: pointer;
 }
@@ -50,6 +53,8 @@
 }
 
 #side-panel #side-panel-list .side-panel-childlist li a {    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 3rem;    
     font-weight: 400;    
 }
