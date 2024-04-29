@@ -27,8 +27,14 @@
     margin-bottom: 2rem;
 }
 
+#markdown-container ol,ul {
+    width: 100%;
+}
+
 #markdown-container li {
+    width: 100%;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     height: auto;
 }
 
