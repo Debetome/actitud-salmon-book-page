@@ -6,12 +6,7 @@ import AppState from "./state.js";
 
 export function toggleSidePanel() {
     const sidePanel = document.getElementById("side-panel");
-    if (sidePanel.classList.contains("hidden")) {
-        sidePanel.classList.remove("hidden");
-        return;
-    }
-
-    sidePanel.classList.add("hidden");
+    sidePanel.classList.toggle("hidden");
 }
 
 export function changePanelSelection(index) {
