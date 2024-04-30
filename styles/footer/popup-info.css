@@ -7,10 +7,10 @@
     transform: translate(-50%, -70%);
     top: 50%;
     left: 50%;
-    min-width: 250px;
+    min-width: 280px;
     max-width: 550px;
     min-height: 250px;
-    max-height: 550px;
+    max-height: 520px;
     width: 60%;
     height: 70%;
     padding: 1rem;
@@ -62,7 +62,7 @@
 
 .popup-content-section {    
     width: 100%;
-    height: 200px;
+    height: auto;
     padding: 1rem;
     margin: 2rem auto;
 }
