@@ -17,7 +17,7 @@
 
 #side-panel #side-panel-list {    
     width: 100%;
-    height: calc(100% + 5rem);
+    height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
