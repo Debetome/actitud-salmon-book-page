@@ -15,8 +15,8 @@ export function adjustSidepanelHeight() {
     const sidePanelList = document.querySelector("#side-panel #side-panel-list");    
     const height = parse2Int(window.getComputedStyle(sidePanelList).height);    
         
+    sidePanelList.style.paddingBottom = height < 590 ? "5rem" : "2rem";
     AppState.setState("smallSidePanel", height < 590);
-    sidePanelList.style.paddingBottom = "5rem" ? height < 590 : "2rem";       
 }
 
 function toggleSidePanelState() {
