@@ -4,8 +4,6 @@ import part2 from "url:../content/part2.txt"
 import part3 from "url:../content/part3.txt"
 import conclusion from "url:../content/conclusion.txt"
 
-const BASE_DIR = "https://raw.githubusercontent.com/Debetome/actitud-salmon-book-webpage/master/content";
-
 const bookIndex = [
     {
         "title": "INTRODUCCIÓN",
