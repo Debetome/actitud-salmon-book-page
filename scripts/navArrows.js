@@ -32,8 +32,10 @@ export function checkNavArrows(index) {
         switch (index) {
             case 0:                
                 nav.children[0].classList.add("disabled");
+                nav.children[1].classList.remove("disabled");
                 break;
-            case bookIndex.length - 1:            
+            case bookIndex.length - 1:
+                nav.children[0].classList.remove("disabled");
                 nav.children[1].classList.add("disabled");
                 break;
             default:                
