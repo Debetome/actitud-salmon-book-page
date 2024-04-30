@@ -4,7 +4,7 @@ Esta es una aplicación web para leer el libro "Actitud del Salmón". Construida
 
 Esta aplicación esta construida sobre el entorno de ejecución *NodeJS* y el servidor HTTP de desarrollo *ParcelJS*.
 
-Para más información del desarrollo de este proyecto, puedes visitar el enlace del repositorio del proyecto en Github.
+Para más información sobre el desarrollo de este proyecto, puedes visitar el enlace del repositorio del proyecto en Github.
 
 ***Código fuente:*** [Repositorio del proyecto](https://github.com/Debetome/actitud-salmon-book-webpage/tree/master)
 
