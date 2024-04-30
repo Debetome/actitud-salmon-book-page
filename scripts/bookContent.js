@@ -2,6 +2,7 @@ import MarkdownIt from "markdown-it";
 import bookIndex from "./bookIndex.js";
 import AppState from "./state.js";
 
+import { checkNavArrows } from "./navArrows.js";
 import { fetchMarkdownFile } from "./utils.js";
 
 const md = new MarkdownIt();
@@ -48,25 +49,6 @@ export function scrollToSection(title) {
 export function initBookContent() {
     changeBookContent(0);
     checkNavArrows(0);
-}
-
-function checkNavArrows(index) {
-    const navArrows = [...document.querySelectorAll(".nav-arrows")];        
-
-    navArrows.forEach(nav => {
-        switch (index) {
-            case 0:                
-                nav.children[0].classList.add("disabled");
-                break;
-            case bookIndex.length - 1:            
-                nav.children[1].classList.add("disabled");
-                break;
-            default:                
-                nav.children[0].classList.remove("disabled");
-                nav.children[1].classList.remove("disabled");
-                break;
-        }
-    })   
 }
 
 function scrollTop() {

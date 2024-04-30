@@ -1,5 +1,6 @@
 import { changeBookContent, scrollToSection } from "./bookContent.js";
 import { adjustSidepanelHeight } from "./responsiveness.js";
+import { checkNavArrows } from "./navArrows.js";
 import { parse2Int } from "./utils.js";
 
 import bookIndex from "./bookIndex.js";
@@ -35,7 +36,7 @@ export function changePanelSelection(index) {
             return;
     }                
 
-    changeBookContent(index)
+    changeBookContent(index)    
 
     bookPartLinks[index].classList.add("selected");
     if (index < childLists.length)
@@ -91,9 +92,10 @@ function initPanelListEvents() {
         .map(li => li.firstChild);    
 
     bookPartLinks.forEach((partLink, index) => {
-        partLink.addEventListener("click", (event) => {
-            changePanelSelection(index);
+        partLink.addEventListener("click", (event) => {            
+            changePanelSelection(index);            
             scrollToSelection(index);
+            checkNavArrows(index);         
         });
     });
 }
