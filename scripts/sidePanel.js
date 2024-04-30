@@ -1,5 +1,6 @@
 import { changeBookContent, scrollToSection } from "./bookContent.js";
 import { adjustSidepanelHeight } from "./responsiveness.js";
+import { parse2Int } from "./utils.js";
 
 import bookIndex from "./bookIndex.js";
 import AppState from "./state.js";
@@ -40,9 +41,9 @@ export function changePanelSelection(index) {
     if (index < childLists.length)
         childLists[index].classList.add("shown");
 
-    const sidePanelHeight = parseInt(window.getComputedStyle(sidePanelList).height.replace("px", ""));
+    const sidePanelHeight = parse2Int(window.getComputedStyle(sidePanelList).height);
     const childListHeight = [...childLists[index].children]
-        .map(li => parseInt(window.getComputedStyle(li).height.replace("px", "")))
+        .map(li => parse2Int(window.getComputedStyle(li).height))
         .reduce((next, current) => next + current);
         
     sidePanelList.style.height = `${sidePanelHeight + childListHeight + 200}px`;

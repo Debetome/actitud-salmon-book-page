@@ -1,3 +1,4 @@
+import { parse2Int } from "./utils.js";
 import AppState from "./state.js";
 
 export function initResponsiveness() {
@@ -12,7 +13,7 @@ export function initResponsiveness() {
 
 export function adjustSidepanelHeight() {
     const sidePanelList = document.querySelector("#side-panel #side-panel-list");    
-    const height = parseInt(window.getComputedStyle(sidePanelList).height.replace("px", ""));    
+    const height = parse2Int(window.getComputedStyle(sidePanelList).height);    
         
     AppState.setState("smallSidePanel", height < 590);
     sidePanelList.style.paddingBottom = "5rem" ? height < 590 : "2rem";       

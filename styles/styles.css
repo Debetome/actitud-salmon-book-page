@@ -2,6 +2,7 @@
 
 @import url("header/header.css");
 @import url("main/main.css");
+@import url("footer/footer.css");
 
 :root {
     --background1: #fff;

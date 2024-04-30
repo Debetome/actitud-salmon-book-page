@@ -4,6 +4,7 @@ import { initBookContent } from "./bookContent.js";
 import { initFullscreenEvent } from "./fullscreen.js";
 import { initNavArrows } from "./navArrows.js";
 import { initResponsiveness } from "./responsiveness.js";
+import { initPopupInfo } from "./popupInfo.js";
 
 initSidePanel();
 initTopPanel();
@@ -11,3 +12,4 @@ initBookContent();
 initFullscreenEvent();
 initNavArrows();
 initResponsiveness();
+initPopupInfo();

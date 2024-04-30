@@ -1,7 +1,8 @@
 import MarkdownIt from "markdown-it";
 import bookIndex from "./bookIndex.js";
-
 import AppState from "./state.js";
+
+import { fetchMarkdownFile } from "./utils.js";
 
 const md = new MarkdownIt();
 
@@ -49,20 +50,4 @@ export function initBookContent() {
 function scrollTop() {
     const contentContainer = document.getElementById("book-content-container");
     contentContainer.scrollTop = 0;
-}
-
-function fetchMarkdownFile(filePath) {
-    return fetch(filePath)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.text();
-        })
-        .then(markdownText => {                       
-            return markdownText;
-        })
-        .catch(error => {
-            console.error('Error fetching the Markdown file:', error);
-        });
 }
