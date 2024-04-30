@@ -62,7 +62,6 @@
 
 .popup-content-section {    
     width: 100%;
-    height: auto;
-    padding: 1rem;
-    margin: 2rem auto;
+    height: auto;    
+    margin: 1rem auto;
 }
