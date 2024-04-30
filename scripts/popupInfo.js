@@ -29,9 +29,12 @@ function initPopupEvents() {
 }
 
 function togglePopupInfo() {    
-    const popupInfo = document.getElementById("popup-info");       
+    const popupInfo = document.getElementById("popup-info");
+    const popupContent = document.getElementById("popup-content");
+
     popupInfo.classList.toggle("displayed");
-    popupInfo.scrollTop = 0;
+    popupContent.scrollTop = 0;
+
     toggleDarkBackground();   
 }
 
