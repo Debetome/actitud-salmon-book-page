@@ -94,3 +94,12 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.nav-arrows a.disabled {
+    color: var(--disabled);
+    cursor: default;
+}
+
+.nav-arrows a.disabled:hover {
+    background: none;
+}

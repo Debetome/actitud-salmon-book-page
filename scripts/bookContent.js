@@ -18,12 +18,13 @@ export function changeBookContent(index) {
         });  
 }
 
-export function nextBookPart() {
+export function nextBookPart() {    
     const index = AppState.getState("contentIndex") + 1;
     if (index === bookIndex.length)
         return;
 
     changeBookContent(index);
+    checkNavArrows(index);
 }
 
 export function previousBookPart() {
@@ -32,6 +33,7 @@ export function previousBookPart() {
         return;
 
     changeBookContent(index);
+    checkNavArrows(index);
 }
 
 export function scrollToSection(title) {
@@ -45,6 +47,26 @@ export function scrollToSection(title) {
 
 export function initBookContent() {
     changeBookContent(0);
+    checkNavArrows(0);
+}
+
+function checkNavArrows(index) {
+    const navArrows = [...document.querySelectorAll(".nav-arrows")];        
+
+    navArrows.forEach(nav => {
+        switch (index) {
+            case 0:                
+                nav.children[0].classList.add("disabled");
+                break;
+            case bookIndex.length - 1:            
+                nav.children[1].classList.add("disabled");
+                break;
+            default:                
+                nav.children[0].classList.remove("disabled");
+                nav.children[1].classList.remove("disabled");
+                break;
+        }
+    })   
 }
 
 function scrollTop() {
