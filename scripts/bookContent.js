@@ -43,7 +43,10 @@ export function scrollToSection(title) {
     const sectionTitle = [...markdownContainer.querySelectorAll("h1,h2,h3")]
         .filter(h2 => h2.innerText === title)[0];
     
-    contentContainer.scrollTop = sectionTitle.offsetTop - contentContainer.offsetTop;
+    contentContainer.scrollTo({
+        top: sectionTitle.offsetTop - contentContainer.offsetTop,
+        behavior: "smooth"
+    });
 }
 
 export function initBookContent() {
